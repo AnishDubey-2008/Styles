@@ -12,4 +12,4 @@ https://AllStyles.anish112.repl.co
   
 ## Authors
 
-- [@Anish](https://AllStyles.anish112.repl.co)
+- One and Only [@Anish](https://AllStyles.anish112.repl.co)
