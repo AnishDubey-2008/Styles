@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
 
 body {
   display: flex;
@@ -92,12 +92,12 @@ body {
   transition: all 0.3s ease, transform 0.3s ease;
 
   /* color: #81B5EE; */
-  color: #A225EC;
+  color: #a225ec;
   /* font-family: 'Nunito Sans', sans-serif; */
   font-family: Poppins, sans-serif;
   font-weight: 700;
   line-height: 1.5rem;
-  border-bottom: 3px solid #A225EC;
+  border-bottom: 3px solid #a225ec;
 }
 
 .input-demo:hover {
@@ -107,13 +107,13 @@ body {
 .input-demo:focus {
   outline: none;
   /* box-shadow: rgb(106, 253, 21) 0px 0px 0px 3px; */
-  box-shadow: #A225EC 0px 0px 0px 0.219rem;
+  box-shadow: #a225ec 0px 0px 0px 0.219rem;
   transform: scale(1.08);
 }
 
 .input-container {
-  width: 16rem;
-  margin: 1rem 18rem;
+  width: 40rem;
+  margin: 1rem 15rem;
 }
 
 .input-demo2 {
@@ -193,12 +193,12 @@ body {
   transition: all 0.3s ease, transform 0.3s ease;
 
   /* color: #81B5EE; */
-  color: #15EE80;
+  color: #15ee80;
   /* font-family: 'Nunito Sans', sans-serif; */
   font-family: Poppins, sans-serif;
   font-weight: 700;
   line-height: 1.5rem;
-  border-bottom: 3px solid #15EE80;
+  border-bottom: 3px solid #15ee80;
 }
 
 .input-demo4:hover {
@@ -208,7 +208,7 @@ body {
 .input-demo4:focus {
   outline: none;
   /* box-shadow: rgb(106, 253, 21) 0px 0px 0px 3px; */
-  box-shadow: #15EE80 0px 0px 0px 0.219rem;
+  box-shadow: #15ee80 0px 0px 0px 0.219rem;
   transform: scale(1.08);
 }
 .input-demo5 {
@@ -224,12 +224,12 @@ body {
   transition: all 0.3s ease, transform 0.3s ease;
 
   /* color: #81B5EE; */
-  color: #A225EC;
+  color: #a225ec;
   /* font-family: 'Nunito Sans', sans-serif; */
   font-family: Poppins, sans-serif;
   font-weight: 700;
   line-height: 1.5rem;
-  border-bottom: 3px solid #A225EC;
+  border-bottom: 3px solid #a225ec;
 }
 
 .input-demo5:hover {
@@ -239,7 +239,7 @@ body {
 .input-demo5:focus {
   outline: none;
   /* box-shadow: rgb(106, 253, 21) 0px 0px 0px 3px; */
-  box-shadow: #A225EC 0px 0px 0px 0.219rem;
+  box-shadow: #a225ec 0px 0px 0px 0.219rem;
   transform: scale(1.08);
 }
 
@@ -320,12 +320,12 @@ body {
   transition: all 0.3s ease, transform 0.3s ease;
 
   /* color: #81B5EE; */
-  color: #15EE80;
+  color: #15ee80;
   /* font-family: 'Nunito Sans', sans-serif; */
   font-family: Poppins, sans-serif;
   font-weight: 700;
   line-height: 1.5rem;
-  border-bottom: 3px solid #15EE80;
+  border-bottom: 3px solid #15ee80;
 }
 
 .input-demo8:hover {
@@ -335,17 +335,29 @@ body {
 .input-demo8:focus {
   outline: none;
   /* box-shadow: rgb(106, 253, 21) 0px 0px 0px 3px; */
-  box-shadow: #15EE80 0px 0px 0px 0.219rem;
+  box-shadow: #15ee80 0px 0px 0px 0.219rem;
   transform: scale(1.08);
 }
 
 .def {
   width: 32rem;
-	font-family: 'Concert One', cursive;
+  font-family: "Concert One", cursive;
+}
+
+.def1 {
+  width: 40rem;
+  margin: 0.7rem auto;
+  font-family: "Concert One", cursive;
+}
+
+.def2 {
+  width: 40rem;
+  margin: 0.7rem auto;
+  font-family: "Concert One", cursive;
 }
 
 .buttons {
-  width: 16rem;
+  width: 30rem;
   margin: 1.5rem 18rem;
   font-family: Poppins, sans-serif;
   display: flex;
@@ -357,13 +369,13 @@ body {
 }
 
 .btn-primary {
-  background-color: #157DEE;
+  background-color: #157dee;
   color: #fff;
   text-align: center;
-  padding: .8rem 3rem;
+  padding: 0.8rem 3rem;
   border-radius: 5px;
   cursor: pointer;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   outline: none;
   border: none;
   font-weight: 700;
@@ -382,21 +394,21 @@ body {
 
 .btn-primary-outline {
   background-color: transparent;
-  color: #157DEE;
+  color: #157dee;
   text-align: center;
-  padding: .8rem 3rem;
+  padding: 0.8rem 3rem;
   border-radius: 5px;
   cursor: pointer;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   outline: none;
   border: none;
   font-weight: 700;
   font-size: 1rem;
-  border: 1px solid #157DEE;
+  border: 1px solid #157dee;
 }
 
 .btn-primary-outline:hover {
-  background-color: #157DEE;
+  background-color: #157dee;
   color: #fff;
 }
 
@@ -405,13 +417,13 @@ body {
 }
 
 .btn-success {
-  background-color: #15EE80;
+  background-color: #15ee80;
   color: #fff;
   text-align: center;
-  padding: .8rem 3rem;
+  padding: 0.8rem 3rem;
   border-radius: 5px;
   cursor: pointer;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   outline: none;
   border: none;
   font-weight: 700;
@@ -420,7 +432,7 @@ body {
 }
 
 .btn-success:hover {
-  background-color: #15EE80;
+  background-color: #15ee80;
   color: #fff;
 }
 
@@ -428,18 +440,31 @@ body {
   box-shadow: 0 0 0 0.25rem #69f0ad;
 }
 
-@media (min-width: 200px) and (max-width: 425px) {
+.hr-line {
+  width: 92%;
+  margin: 0.7rem auto;
+  border-bottom: 1px solid #000;
+}
+
+.hr-line1 {
+  width: 92%;
+  margin: 0.7rem auto;
+  border-bottom: 1px solid #000;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
   .main-container {
-    width: 35rem;
+    width: 24rem;
+    margin-left: 1.65rem;
   }
   .container {
-    width: 18rem;
-    margin-left: 2rem;
+    width: 20.5rem;
+    margin-left: 1.7rem;
     margin-right: 2rem;
   }
   .container2 {
-    width: 18rem;
-    margin-left: 2rem;
+    width: 20.5rem;
+    margin-left: 1.7rem;
     margin-right: 2rem;
   }
   .buttons {
@@ -460,42 +485,56 @@ body {
     margin: 0.5rem auto;
   }
   .input {
-  	margin-left: 3rem;
+    margin-left: 3rem;
+    width: 12rem;
   }
   .input-demo {
     width: 10rem;
+    margin-left: 5rem;
   }
   .input-demo2 {
     width: 10rem;
+    margin-left: 5rem;
   }
   .input-demo3 {
     width: 10rem;
+    margin-left: 5rem;
   }
   .input-demo4 {
     width: 10rem;
+    margin-left: 5rem;
   }
   .def {
-    width: 16rem;
+    width: 18rem;
+    margin: 3rem 3rem;
+  }
+  .def1 {
+    width: 18rem;
+    margin: 3rem 3rem;
+  }
+  .def2 {
+    width: 18rem;
     margin: 3rem 3rem;
   }
 }
 
 @media (min-width: 425px) and (max-width: 770px) {
   .main-container {
-    width: 35rem;
-    margin: 2.5rem auto;
+    width: 42rem;
+    margin: 0.5rem 3rem;
+    margin-left: 3rem;
   }
   .container {
-    width: 30rem;
+    width: 37rem;
     margin-left: 2.5rem;
   }
   .container2 {
-    width: 30rem;
+    width: 37rem;
     margin-left: 2.5rem;
   }
   .buttons {
-    width: 30rem;
-    margin-left: 1.5rem ;
+    width: 38rem;
+    margin-left: 1.5rem;
   }
   .btn-primary {
     margin-left: 3rem;
@@ -507,7 +546,7 @@ body {
     margin-left: 3rem;
   }
   .input {
-  	margin-left: 3rem;
+    margin-left: 5rem;
   }
   .input-container {
     width: auto;
@@ -526,7 +565,15 @@ body {
     width: 10rem;
   }
   .def {
-    width: 18rem;
+    width: 35rem;
+    margin: 3rem 3rem;
+  }
+  .def1 {
+    width: 37rem;
+    margin: 3rem 3rem;
+  }
+  .def2 {
+    width: 37rem;
     margin: 3rem 3rem;
   }
 }
